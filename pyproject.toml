@@ -1,0 +1,31 @@
+[project]
+name = "typed-event"
+version = "0.1.0"
+description = "Typed event"
+authors = [
+    {name = "Jerome Etienne",email = "jerome.etienne@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pyright (>=1.1.407,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+# Configuration for the Black code formatter 
+[tool.black]
+line-length = 160   # to match the 79 character limit of PEP 8, but allow some extra space for longer lines
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^9.0.1"
+
+[project.urls]
+Homepage = "https://github.com/jeromeetienne/typed_event.py"
+Source = "https://github.com/jeromeetienne/typed_event.py"
+Issues = "https://github.com/jeromeetienne/typed_event.py/issues"
