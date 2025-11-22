@@ -3,10 +3,10 @@ help: ## Show this help message
 
 ###############################################################################
 
-test: ## Run pytest on the tests/ directory
+test: lint ## Run pytest on the tests/ directory
 	pytest tests/ -W ignore::DeprecationWarning
 
-test_verbose: ## Run pytest in verbose mode on the tests/ directory
+test_verbose: lint ## Run pytest in verbose mode on the tests/ directory
 	pytest tests/ -W ignore::DeprecationWarning -v 
 
 ###############################################################################

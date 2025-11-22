@@ -41,3 +41,5 @@ on_user_login.subscribe(log_login_event)
 print("Dispatching event for user 'Alice'...")
 # FIXME this line should raise a mypy error because of wrong type for user_id
 on_user_login.dispatch("Alice", "ddd")
+
+on_user_login.dispatch(username="Bob", user_id='foobar')

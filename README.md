@@ -1,4 +1,4 @@
-# Typed Event System
+# Typed Event
 Typed events for python projects.
 
 ## Motivation

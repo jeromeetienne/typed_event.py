@@ -1,1 +1,1 @@
-from .typed_event import Event
+from .event import Event
