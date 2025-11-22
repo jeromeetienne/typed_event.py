@@ -4,15 +4,18 @@ Typed events for python projects.
 ## Motivation
 Typed events provide a way to enforce type safety and clarity in event-driven programming, making it easier to manage and debug event handling in Python projects.
 
-## How to install
+## How to Use
+
+TODO
+
+## How to Install
 
 You can install the package via pip:
 ```bash
 pip install typed-event
 ```
 
-
-## How to install for Development
+## How to Install for Development
 
 Create a virtual environment (optional but recommended):
 ```bash
